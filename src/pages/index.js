@@ -1,10 +1,12 @@
-import Header from "../components/Nav";
+import Nav from "../components/Nav";
+import Banner from "../components/Banner";
 
 export default function Home() {
   return (
-    <section>
+    <section className="rootContainer">
       <h2>Test</h2>
-      <Header />
+      <Nav />
+      <Banner />
     </section>
   )
 }
