@@ -1,12 +1,13 @@
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
+import CTAone from "../components/CTAone";
 
 export default function Home() {
   return (
     <section className="rootContainer">
-      <h2>Test</h2>
       <Nav />
       <Banner />
+      <CTAone />
     </section>
   )
 }
