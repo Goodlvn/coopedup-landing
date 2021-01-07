@@ -20,13 +20,13 @@
 }
 
 .lgTxt {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .caps {
   text-transform: uppercase;
 }
 
-.selector {
-  transition: transform 1s;
+.txtSpace {
+  letter-spacing: 0.25rem;
 }
