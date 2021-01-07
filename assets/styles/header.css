@@ -1,0 +1,30 @@
+header {
+  position: relative;
+}
+
+nav {
+  background-color: #efe0e0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 33rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: brown;
+}
+
+nav ul li {
+  padding: 2.5rem;
+}

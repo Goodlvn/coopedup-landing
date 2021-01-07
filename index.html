@@ -4,17 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" type="text/css" href="./assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/helpers.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/banner.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Rubik&display=swap" rel="stylesheet">
+    <title>Cooped Up Wings</title>
 </head>
 
 <body>
     <!--NAVBAR/HEADER-->
     <header>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Order</li>
+            <ul class="navbar skinny mdTxt caps">
+                <a href="#" onclick="window.location.reload(true);">
+                    <li>Home</li>
+                </a>
+                <a href="#menu">
+                    <li>Menu</li>
+                </a>
+                <a href="#order">
+                    <li>Order</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -52,7 +67,7 @@
         </div>
     </section>
     <!--WING MENU-->
-    <section class="wingMenu">
+    <section id="menu" class="wingMenu">
         <div class="menuTop">
             <h2>10 all natural extra large wings</h2>
 
@@ -274,7 +289,7 @@
         </div>
     </section>
     <!--CALL TO ACTION - CLOSING ORDER-->
-    <section class="ctaBottom">
+    <section id="order" class="ctaBottom">
         <span>
             delivered by
             <img alt="doordash logo" />
