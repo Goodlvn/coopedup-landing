@@ -1,0 +1,31 @@
+.ctaTop {
+  position: relative;
+  background-color: #aac520;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 21rem;
+}
+
+.ctaTop h3,
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ctaTopText {
+  margin-top: -3.5rem;
+  padding: 0 1rem;
+}
+
+.ctaContainerTop {
+  position: absolute;
+  top: 17.8rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

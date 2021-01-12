@@ -6,3 +6,38 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.woodSign {
+  background-color: #7a381f;
+  width: fit-content;
+  min-height: 4.5rem;
+  text-align: center;
+  padding: 0.75rem 4rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderBtn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.orderBtn:hover > h3 {
+  color: #e9f7a0;
+}
+
+.orderBtnBaseLayer {
+  margin: 0.5rem 0;
+  box-shadow: 5px 5px 1px #4e2313;
+}
+
+.orderBtnBaseLayer:hover {
+  background-color: #7a381f;
+  transform: rotate(2deg);
+}
+
+.menuSign {
+  margin: 3rem 0;
+}
