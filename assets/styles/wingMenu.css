@@ -1,0 +1,38 @@
+.wingMenu {
+  margin-top: 23rem;
+}
+
+.menuTop > h2 {
+  margin: 0 1.5rem;
+  padding: 0;
+  text-align: center;
+  color: #aac421;
+}
+
+.pricePoint > h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.menuTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricePoint {
+  background-color: #aac421;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(1.5deg);
+  padding: 0.2rem 5rem;
+  letter-spacing: 3px;
+  margin-top: 2rem;
+}
+
+.pricePoint > h2 {
+  margin: 0 0.2rem;
+  letter-spacing: 0.5rem;
+}
