@@ -104,7 +104,7 @@
   margin-left: 0.75rem;
 }
 
-/* WING DETAILS + HEATBAR INDICATOR */
+/* HEATBAR INDICATOR */
 .wingDetails {
   display: flex;
   margin: 5rem 0;
@@ -149,12 +149,94 @@
     to right,
     rgb(158, 3, 3, 0.95) 5%,
     rgb(255, 0, 0, 0.92) 20%,
-    rgb(255, 255, 0, 0.88) 135%
+    rgb(255, 255, 0, 0.88) 120%
   );
   color: rgba(255, 255, 255, 0.6);
   white-space: nowrap;
-  padding: 0.5rem 12rem;
+  padding: 0.5rem 5rem;
   transform: rotate(-90deg);
   margin-bottom: 10px;
-  /* height: 20rem; */
+  letter-spacing: 10px;
+}
+
+.fas {
+  transform: rotate(90deg);
+  padding-left: 13px;
+}
+
+/* WING MENU */
+.wingFlavors {
+  color: #7a381f;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 0 1.5rem;
+}
+
+.flavorList > h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.flavorList > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+/* wing flavors that match heat bar - start on 2 and count 10 */
+
+.flavorList > li:nth-child(2) {
+  color: #ffd53f;
+}
+
+.flavorList > li:nth-child(3) {
+  color: #ffbd3b;
+}
+
+.flavorList > li:nth-child(4) {
+  color: #ffab38;
+}
+
+.flavorList > li:nth-child(5) {
+  color: #ff9836;
+}
+
+.flavorList > li:nth-child(6) {
+  color: #ff8433;
+}
+
+.flavorList > li:nth-child(7) {
+  color: #ff7231;
+}
+
+.flavorList > li:nth-child(8) {
+  color: #ff5e2d;
+}
+
+.flavorList > li:nth-child(9) {
+  color: #ff4929;
+}
+
+.flavorList > li:nth-child(10) {
+  color: #ff2c24;
+}
+
+.flavorList > li:nth-child(11) {
+  color: #a41916;
+}
+
+.flavorList {
+  margin: 0;
+  margin-top: -1rem;
+  padding: 0;
+}
+
+.flavorDetails {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.9rem;
+  color: #7a381f;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.25rem;
+  padding-left: 0.75rem;
 }
