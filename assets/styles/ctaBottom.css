@@ -1,0 +1,26 @@
+.ctaBottom {
+  background: url("../images/bttmWings.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderBtnsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dshBttm {
+  margin-bottom: 2rem;
+}
