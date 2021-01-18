@@ -1,0 +1,112 @@
+/* RESETS & FONTS */
+
+.featuredContainer h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.featuredDetails ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.featuredDetails ul > li > ul {
+  font-family: "Rubik", sans-serif;
+  text-transform: none;
+  font-size: 0.88rem;
+}
+
+/* CONTAINER STYLES */
+
+.featuredContainer {
+  display: grid;
+  grid-template-columns: 0.6fr 4fr 0.6fr;
+  grid-template-rows: 2fr 0fr 0fr;
+  margin-bottom: 5rem;
+  background-color: #461414;
+  color: white;
+}
+
+.featuredDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  padding: 1rem 2.5rem 0 2.5rem;
+}
+
+.b {
+  padding-top: 5.5rem;
+}
+
+.d {
+  padding-bottom: 7rem;
+}
+
+.b > ul > h3:nth-child(2) {
+  margin: 0.25rem 0 0 0;
+}
+
+.b > ul > li,
+.d > ul > li {
+  margin: 1rem 0 1.75rem 0;
+}
+
+.c > ul > li:nth-child(3) {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.fries {
+  background: url("../images/fries.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sauce {
+  background: url("../images/sauce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cookie {
+  background: url("../images/cookie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DIV LAY OUT SYSTEM */
+
+.a {
+  /* order: 1; */
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+/* .b {
+} */
+
+.c {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.d {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* .e {
+} */
+
+.f {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
