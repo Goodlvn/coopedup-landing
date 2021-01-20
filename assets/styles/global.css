@@ -40,31 +40,15 @@ body {
   transform: rotate(2deg);
 }
 
-.menuSign {
-  margin: 2.5rem 0;
-  position: relative;
-  z-index: 0;
-  box-shadow: 5px 5px 1px #4e2313;
-}
-
-.menuSign:before {
-  content: "";
-  background: #bf7f3d;
-  width: 2px;
-  height: 50px;
-  position: absolute;
-  top: -50px;
-  left: 20px;
-  /* z-index: 0; */
-}
-
-.menuSign:after {
-  content: "";
-  background: #bf7f3d;
-  width: 2px;
-  height: 50px;
-  position: absolute;
-  top: -50px;
-  right: 20px;
-  /* z-index: 0; */
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: left top;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: left top;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: left top;
+  transform: rotate(90deg);
+  transform-origin: left top;
 }
