@@ -25,7 +25,7 @@ h4 {
   display: grid;
   grid-template-columns: 0.6fr 4fr 0.6fr;
   grid-template-rows: 2fr 0fr 0fr;
-  background-color: #461414;
+  background-color: #451f1f;
   color: white;
 }
 
@@ -49,8 +49,7 @@ h4 {
   margin: 0.25rem 0 0 0;
 }
 
-.b > ul > li,
-e .d > ul > li {
+.b > ul > li {
   margin: 1rem 0 1.75rem 0;
 }
 
@@ -59,25 +58,30 @@ e .d > ul > li {
 }
 
 .c > ul > li:nth-child(3) {
-  margin: 1rem 0 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.c > ul > h4,
+.d > ul > h4 {
+  margin: 0.75rem 0;
 }
 
 .fries {
-  background: url("../images/fries.jpg");
+  background: url("../images/Cooped-Up-Sides-Left.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .sauce {
-  background: url("../images/sauce.jpg");
+  background: url("../images/sauce-coopedup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .cookie {
-  background: url("../images/cookie.jpg");
+  background: url("../images/big-cookie-coopedup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,8 +122,6 @@ e .d > ul > li {
   .featuredContainer {
     grid-template-columns: 1fr 3fr 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: #461414;
-    color: white;
   }
 
   .featuredContainer > div {
@@ -185,7 +187,7 @@ e .d > ul > li {
   .e,
   .f {
     width: 100%;
-    height: 15rem;
+    height: 25rem;
   }
 
   .featuredDetails {
@@ -214,5 +216,14 @@ e .d > ul > li {
 
   .f {
     order: 2;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .a,
+  .e,
+  .f {
+    width: 100%;
+    height: 17rem;
   }
 }

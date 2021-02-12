@@ -25,11 +25,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .pricePoint {
   background-color: #aac421;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   transform: rotate(1.5deg);
@@ -41,6 +43,7 @@
 .pricePoint > h2 {
   margin: 0 0.2rem;
   letter-spacing: 0.5rem;
+  color: #451f1f;
 }
 
 .wingTypes {
@@ -51,6 +54,7 @@
 
 .wingTypes div {
   padding: 0 2rem;
+  text-align: center;
 }
 
 .wingTypes div:nth-child(2) {
@@ -65,13 +69,16 @@
 /* FEATURED WINGS */
 
 .featuredWings {
-  background-color: #cac8c8;
+  background: url(../images/textured-bg-lg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 5rem 0;
 }
 
 .featuredWingsBG {
-  background: url(../images/lourub.jpg);
+  background: url(../images/inferno-wings.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +166,6 @@
 }
 
 .heatBarContainer > div:nth-child(3) {
-  max-width: 7rem;
   bottom: -25px;
   left: 50%;
   transform: translate(-50%);
@@ -238,7 +244,7 @@
 }
 
 .flavorDetails {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.9rem;
   color: #7a381f;
   list-style: none;
@@ -314,5 +320,36 @@
 
   .wingDetails {
     flex-grow: 1;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .wingFlavors {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pricePoint {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .spanContainer > span:nth-child(1) {
+    color: #7a381f;
+    margin-bottom: 0.33rem;
+    margin-left: 0;
+  }
+
+  .spanContainer {
+    padding: 0;
+  }
+
+  .spanContainer > span {
+    transform: rotate(0);
+  }
+
+  .featuredWings {
+    padding: 2.5rem;
   }
 }

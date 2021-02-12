@@ -1,6 +1,6 @@
 .ctaTop {
   position: relative;
-  background-color: #aac520;
+  background-color: #abd037;
   color: white;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,16 @@ p {
   max-width: 50rem;
 }
 
+.ctaTopText h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaTopText p {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
 .ctaContainerTop {
   position: absolute;
   top: 17.8rem;
@@ -34,6 +44,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .menuSign {

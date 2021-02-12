@@ -1,5 +1,4 @@
 .banner {
-  background-color: #fb843f;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,9 +6,29 @@
   overflow: hidden;
 }
 
+.bannerBg {
+  background: url(../images/Cooped-Up-Wings-Hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bannerlogo {
   max-width: 33rem;
   margin: 5rem 1rem;
+}
+.dashbanner span {
+  max-width: 33rem;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ddLogo {
+  width: 80%;
+  height: auto;
+  margin-left: 1.25rem;
 }
 
 .tagline {
@@ -21,19 +40,30 @@
   margin-bottom: 4rem;
 }
 
-.tagline span {
-  background-color: #aac520;
+.taglineBase {
+  display: none;
+  background-color: #abd037;
   color: white;
   text-align: center;
   /* min-width: 100%; */
   margin: 0.6rem 0;
   padding: 0.25rem 2.5rem;
+}
 
+.tagline span {
+  background-color: #abd037;
+  color: white;
+  text-align: center;
+  /* min-width: 100%; */
+  margin: 0.6rem 0;
+  padding: 0.25rem 2.5rem;
   transform: rotate(1deg);
+  white-space: nowrap;
 }
 
 #tl3 {
   width: 100%;
+  white-space: normal;
 }
 
 #tl1 {
@@ -41,7 +71,11 @@
 }
 
 .dashbanner {
-  background-color: #7a381f;
+  background: url(../images/wood-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #7a381f; */
   color: white;
   width: 100%;
   display: flex;
@@ -58,4 +92,62 @@
 
 .dashbanner span {
   display: flex;
+}
+
+@media only screen and (min-width: 1320px) {
+  .tagline span {
+    display: none;
+  }
+
+  .taglineBase {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #tl3 {
+    width: 100%;
+    padding: 0.25rem 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .ddLogo {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .bannerlogo {
+    max-width: 33rem;
+    margin: 5rem 1rem 3rem 1rem;
+  }
+
+  .dashbanner p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tagline > span {
+    width: 100%;
+  }
+
+  .dashbanner {
+    padding: 3rem 0;
+  }
+
+  .dashbanner span {
+    flex-direction: column;
+  }
+
+  .ddLogo {
+    margin-left: 0;
+    margin-top: 0.75rem;
+    width: 80%;
+  }
+
+  .dashbanner p {
+    font-size: 1.75rem;
+  }
 }

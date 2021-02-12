@@ -1,5 +1,5 @@
 .ctaBottom {
-  background: url("../images/bttmWings.jpg");
+  background: url("../images/bbq-wings.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .orderBtnsContainer {
@@ -16,11 +17,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  min-width: 25rem;
+  min-height: 15rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.orderBtnsContainer > div:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
 .dshBttm {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.dshBttm p {
+  padding-top: 0.25rem;
+  padding-right: 0.5rem;
+}
+
+.ddLogoBttm {
+  width: 15rem;
+  height: auto;
+}
+
+@media only screen and (min-width: 1040px) {
+  .orderBtnsContainer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 8rem;
+  }
+
+  .orderBtnsContainer > div:nth-child(1) {
+    margin-bottom: 0;
+  }
 }

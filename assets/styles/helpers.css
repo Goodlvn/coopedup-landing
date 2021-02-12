@@ -1,10 +1,10 @@
 /* Font helper classes*/
 .bold {
-  font-family: "Exo", sans-serif;
+  font-family: "Cubano", sans-serif;
 }
 
 .skinny {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .xsTxt {
@@ -12,7 +12,7 @@
 }
 
 .smTxt {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .mdTxt {

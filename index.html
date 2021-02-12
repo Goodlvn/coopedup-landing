@@ -18,15 +18,19 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/iob1zex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Cooped Up Wings</title>
 </head>
 
 <body>
     <!--NAVBAR/HEADER-->
     <header>
-        <nav tabindex="0">
-            <ul class="navbar skinny mdTxt caps">
+        <nav tabindex="0" class="Skinny">
+            <ul class="navbar skinny caps">
                 <li>
                     <a href="#" onclick="window.location.reload(true);">
                         Home
@@ -46,8 +50,10 @@
         </nav>
     </header>
     <!--BANNER SECTION-->
-    <section class="banner">
+    <section class="banner bannerBg">
         <img class="bannerlogo" src="./assets/images/logo.svg" alt="logo" />
+        <span class="taglineBase lgTxt bold caps">NO ANTIBIOTICS • NO HORMONES • ALL NATURAL EXTRA LARGE WINGS</span>
+
         <div class="tagline lgTxt bold caps">
             <span id="tl1">No Antibiotics</span>
             <span id="tl2">No Hormones</span>
@@ -56,15 +62,15 @@
         <div class="dashbanner lgTxt bold caps txtSpace">
             <span tabindex="0">
                 <p>ONLY ON</p>
-                <img alt="doordash logo">
+                <img alt="doordash logo" class="ddLogo" src="./assets/images/dd_logo.png">
             </span>
         </div>
     </section>
     <!--CALL TO ACTION - ORDER BUTTONS-->
     <section class="ctaTop" tabindex="0">
         <div class="ctaTopText">
-            <h3 class="bold lgTxt caps">wanna stay in?</h3>
-            <p class="skinny mdTxt">Cooped Up Wings is here with with meaty, all natural wings with 10 incredible
+            <h3 class="bold caps">wanna stay in?</h3>
+            <p class="skinny">Cooped Up Wings is here with with meaty, all natural wings with 10 incredible
                 craft
                 sauces. For delivery in
                 your area, find us on Doordash.</p>
@@ -141,7 +147,7 @@
                     <h3 class="bold caps lgTxt" tabindex="0">WING FLAVORS</h3>
                     <li class="bold caps smTxt" tabindex="0">
                         1. Garlic Parmesan
-                        <ul class="flavorDetails">
+                        <ul class="flavorDetails Skinny">
                             <li>SAVORY, DRY GARLIC SPICE RUB WITH GRATED PARMESAN-ROMANO CHEESE AND TOPPED WITH
                                 CHOPPED
                                 PARSLEY. WHEN IT COMES TO GARLIC—THERE’S NEVER ENOUGH.</li>
@@ -316,9 +322,9 @@
     </section>
     <!--CALL TO ACTION - CLOSING ORDER-->
     <section id="order" class="ctaBottom">
-        <span class="bold caps mdTxt txtSpace dshBttm greenFont">
-            delivered by
-            <img alt="doordash logo" />
+        <span class="bold caps mdTxt txtSpace dshBttm">
+            <p>delivered by</p>
+            <img class="ddLogoBttm" alt="doordash logo" src="./assets/images/dd_logo.png" />
         </span>
 
         <div class="orderBtnsContainer">
